@@ -20,9 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func sayGoBroncos(team: String) -> String {
-        let greeting = "Go " + team + "!"
-//	let greeting = "Broncos are alright!"
+    func sayHelloWorld(place: String) -> String {
+        let greeting = "Hello " + place + "!"
+// Uncomment below to break unit test
+//	let greeting = "Hello Mars!"
         return greeting
     }
     

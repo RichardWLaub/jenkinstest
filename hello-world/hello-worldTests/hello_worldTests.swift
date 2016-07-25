@@ -39,10 +39,10 @@ class hello_worldTests: XCTestCase {
     func testUnitTest() {
         XCTAssert(true)
     }
-    func testGoBroncos() {
-        // Should be Go, Broncos!
-        let p = vc.sayGoBroncos("Broncos")
-        XCTAssert(p == "Go Broncos!")
+    func testSayHelloWorld() {
+        // Should say Hello World!
+        let p = vc.sayHelloWorld("World")
+        XCTAssert(p == "Hello World!")
     }
     
 }
