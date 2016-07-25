@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
     
     func sayGoBroncos(team: String) -> String {
-        let greeting = "Go " + team + "!"
+//        let greeting = "Go " + team + "!"
+	let greeting = "Broncos are alright!"
         return greeting
     }
     
