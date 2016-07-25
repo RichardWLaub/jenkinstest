@@ -10,9 +10,13 @@ import XCTest
 @testable import hello_world
 
 class hello_worldTests: XCTestCase {
+    var vc: ViewController!
     
     override func setUp() {
         super.setUp()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        vc = storyboard.instantiateInitialViewController() as! ViewController
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -31,6 +35,14 @@ class hello_worldTests: XCTestCase {
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
+    }
+    func testUnitTest() {
+        XCTAssert(true)
+    }
+    func testGoBroncos() {
+        // Should be Go, Broncos!
+        let p = vc.sayGoBroncos("Broncos")
+        XCTAssert(p == "Go Broncos!")
     }
     
 }
