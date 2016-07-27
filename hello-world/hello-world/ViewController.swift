@@ -1,4 +1,4 @@
-// !!!~
+!!!~
 //
 //  ViewController.swift
 //  hello-world
@@ -20,15 +20,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     func sayHelloWorld(place: String) -> String {
         var greeting = "Hello " + place + "!"
 // Uncomment below to break unit test
 //	greeting = "Hello Mars!"
         return greeting
     }
-    
+
 
 
 }
-
