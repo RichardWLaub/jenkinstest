@@ -5,3 +5,4 @@ adding a feature
 feature branch
 testing mac mini
 developer mode
+cleaning build
