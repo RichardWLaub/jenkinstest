@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     func sayHelloWorld(place: String) -> String {
         var greeting = "Hello " + place + "!"
 // Uncomment below to break unit test
-	greeting = "Hello Mars!"
+//	greeting = "Hello Mars!"
         return greeting
     }
     
