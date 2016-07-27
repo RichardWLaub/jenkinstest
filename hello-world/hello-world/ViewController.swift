@@ -1,4 +1,3 @@
-!!!~
 //
 //  ViewController.swift
 //  hello-world
