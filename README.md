@@ -3,5 +3,4 @@ hello!
 helloworld
 adding a feature
 
-hello
 helloworld
